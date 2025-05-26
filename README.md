@@ -61,6 +61,8 @@ Admin users can log in to manage menu items
 For any questions or feedback, feel free to reach out:
 Your Name – bimalchaudhary014@gmail.com
 Project Link: https://github.com/your-username/mountain-eats
+
+# Screen Sorts:
    
 ![Figure 1: Home](https://github.com/user-attachments/assets/e8decb80-fb9d-41ae-882f-9540dcb14ce5)
 ![Figure 2: Explore our menu](https://github.com/user-attachments/assets/3c57bb2e-7b6f-40a3-b3a2-038ce9926f27)
