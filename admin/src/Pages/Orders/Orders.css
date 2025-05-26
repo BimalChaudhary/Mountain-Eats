@@ -1,0 +1,85 @@
+.orders-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* 5px gap between order cards */
+}
+
+.order-card {
+  border: 1px solid #f0c0c0;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #fffafa;
+  box-shadow: 0 2px 5px rgba(255, 100, 100, 0.15);
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #505050;
+}
+
+.order-table th,
+.order-table td {
+  border: 1px solid rgb(163, 7, 253);
+  padding: 10px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.order-table th {
+  background-color: #ffe5e5;
+  font-weight: bold;
+}
+
+/* Nested table for items and address */
+.nested-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.nested-table th,
+.nested-table td {
+  border: 1px solid #f4a1a1;
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.item-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.order-table select {
+  background-color: #ff3838aa;
+  border: 1px solid rgb(8, 23, 235);
+  padding: 6px;
+  font-size: 14px;
+  outline: none;
+  width: max(10vw, 120px);
+}
+
+@media (max-width: 1000px) {
+  .order-table {
+    font-size: 12px;
+  }
+
+  .order-table select {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  .item-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .nested-table {
+    font-size: 11px;
+  }
+}

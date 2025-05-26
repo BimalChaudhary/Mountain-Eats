@@ -1,0 +1,154 @@
+.login-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.login-popup-container {
+  background: white;
+  border-radius: 10px;
+  padding: 30px 40px;
+  max-width: 400px;
+  width: 90%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-popup-title h2 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #0d47a1;
+}
+
+.close-icon {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  filter: invert(30%);
+  transition: filter 0.3s;
+}
+
+.close-icon:hover {
+  filter: invert(60%);
+}
+
+.login-popup-inputs input[type="text"],
+.login-popup-inputs input[type="email"],
+.login-popup-inputs input[type="password"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1.5px solid #aaa;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.login-popup-inputs input[type="text"]:focus,
+.login-popup-inputs input[type="email"]:focus,
+.login-popup-inputs input[type="password"]:focus {
+  outline: none;
+  border-color: #0d47a1;
+}
+
+.image-upload-label {
+  display: block;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  color: #0d47a1;
+}
+
+.image-upload-label input[type="file"] {
+  display: none;
+}
+
+.image-preview {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #0d47a1;
+}
+
+button[type="submit"] {
+  background-color: #0d47a1;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 12px 0;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #063b7c;
+}
+
+.login-popup-condition {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.login-popup-condition input[type="checkbox"] {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.login-popup-condition p {
+  margin: 0;
+}
+
+.login-popup p {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #0d47a1;
+}
+
+.login-popup p span {
+  cursor: pointer;
+  color: #0d47a1;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.login-popup p span:hover {
+  color: #063b7c;
+}
+.password-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.password-input-wrapper input {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.toggle-password-visibility {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  user-select: none;
+}
