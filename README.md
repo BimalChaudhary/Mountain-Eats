@@ -51,9 +51,9 @@ Mountain Eats is a food delivery website that allows users to browse, order, and
 
 # Usage
 
-Open your browser and navigate to http://localhost:3000 (or your frontend port)
-Browse food items and place orders
-Admin users can log in to manage menu items
+- Open your browser and navigate to http://localhost:3000 (or your frontend port)
+- Browse food items and place orders
+- Admin users can log in to manage menu items
 
 
 # Contact
