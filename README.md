@@ -59,8 +59,8 @@ Admin users can log in to manage menu items
 # Contact
 
 For any questions or feedback, feel free to reach out:
-Your Name – bimalchaudhary014@gmail.com
-Project Link: https://github.com/your-username/mountain-eats
+- Your Name – bimalchaudhary014@gmail.com
+- Project Link: https://github.com/your-username/mountain-eats
 
 # Screen Sorts:
    
