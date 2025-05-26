@@ -60,7 +60,7 @@ Mountain Eats is a food delivery website that allows users to browse, order, and
 
 For any questions or feedback, feel free to reach out:
 - Your Name – bimalchaudhary014@gmail.com
-- Project Link: https://github.com/your-username/mountain-eats
+- Project Link: [https://github.com/your-username/mountain-eats](https://github.com/BimalChaudhary/Mountain-Eats.git)
 
 # Screen Sorts:
    
