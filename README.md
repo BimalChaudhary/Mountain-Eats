@@ -29,7 +29,7 @@ Mountain Eats is a food delivery website that allows users to browse, order, and
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/mountain-eats.git
+   git clone https://github.com/BimalChaudhary/Mountain-Eats/tree/my-new-branch?tab=readme-ov-file
    cd mountain-eats
    
 2. Install backend dependencies:
@@ -60,7 +60,7 @@ Mountain Eats is a food delivery website that allows users to browse, order, and
 
 For any questions or feedback, feel free to reach out:
 - Your Name – bimalchaudhary014@gmail.com
-- Project Link: https://github.com/BimalChaudhary/Mountain-Eats.git
+- Project Link: https://github.com/BimalChaudhary/Mountain-Eats/tree/my-new-branch?tab=readme-ov-file
 
 # Screen Sorts:
    
